@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/icon_home_color2x"
+        android:title="home"/>
+        />
+    <item
+        android:id="@+id/navigation_video"
+        android:enabled="true"
+        android:icon="@drawable/icon_video_color2x"
+        android:title="video" />
+    <item
+        android:id="@+id/navigation_community"
+        android:enabled="true"
+        android:icon="@drawable/icon_community_color2x"
+        android:title="community" />
+    <item
+        android:id="@+id/navigation_my_page"
+        android:enabled="true"
+        android:icon="@drawable/icon_mypage_color2x"
+        android:title="my_page" />
+
+    <!--android:icon="@drawable/ic_access_alarm_black_24dp"-->
+</menu>
